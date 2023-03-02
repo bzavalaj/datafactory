@@ -1,5 +1,5 @@
 {
-	"name": "inputjson",
+	"name": "feed",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureBlobStorage3",
