@@ -1,0 +1,9 @@
+{
+	"name": "crea",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1068a56f-367d-4729-b6e6-96a3510e559b",
+		"tenantId": "63aef034-f273-4062-bf49-830d729c17b4"
+	}
+}
