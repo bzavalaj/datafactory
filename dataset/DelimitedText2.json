@@ -19,6 +19,31 @@
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": []
+		"schema": [
+			{
+				"name": "created_time",
+				"type": "String"
+			},
+			{
+				"name": "message",
+				"type": "String"
+			},
+			{
+				"name": "id",
+				"type": "String"
+			},
+			{
+				"name": "before",
+				"type": "String"
+			},
+			{
+				"name": "after",
+				"type": "String"
+			},
+			{
+				"name": "next",
+				"type": "String"
+			}
+		]
 	}
 }
