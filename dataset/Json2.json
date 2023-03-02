@@ -1,0 +1,59 @@
+{
+	"name": "Json2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Axity_feed.json",
+				"container": "blobjsoninput"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"data": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"created_time": {
+								"type": "string"
+							},
+							"message": {
+								"type": "string"
+							},
+							"id": {
+								"type": "string"
+							}
+						}
+					}
+				},
+				"paging": {
+					"type": "object",
+					"properties": {
+						"cursors": {
+							"type": "object",
+							"properties": {
+								"before": {
+									"type": "string"
+								},
+								"after": {
+									"type": "string"
+								}
+							}
+						},
+						"next": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		}
+	}
+}
