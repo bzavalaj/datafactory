@@ -16,7 +16,7 @@
 				"userProperties": [
 					{
 						"name": "Source",
-						"value": "blobjsoninput//stories_file_5.json"
+						"value": "blobjsoninput//Axity_feed.json"
 					},
 					{
 						"name": "Destination",
@@ -53,49 +53,31 @@
 							{
 								"source": {
 									"path": "['created_time']"
-								},
-								"sink": {
-									"ordinal": 1
 								}
 							},
 							{
 								"source": {
 									"path": "['message']"
-								},
-								"sink": {
-									"ordinal": 2
 								}
 							},
 							{
 								"source": {
 									"path": "['id']"
-								},
-								"sink": {
-									"ordinal": 3
 								}
 							},
 							{
 								"source": {
 									"path": "$['paging']['cursors']['before']"
-								},
-								"sink": {
-									"ordinal": 4
 								}
 							},
 							{
 								"source": {
 									"path": "$['paging']['cursors']['after']"
-								},
-								"sink": {
-									"ordinal": 5
 								}
 							},
 							{
 								"source": {
 									"path": "$['paging']['next']"
-								},
-								"sink": {
-									"ordinal": 6
 								}
 							}
 						],
