@@ -54,31 +54,49 @@
 							{
 								"source": {
 									"path": "['created_time']"
+								},
+								"sink": {
+									"name": "created_time"
 								}
 							},
 							{
 								"source": {
 									"path": "['message']"
+								},
+								"sink": {
+									"name": "message"
 								}
 							},
 							{
 								"source": {
 									"path": "['id']"
+								},
+								"sink": {
+									"name": "id"
 								}
 							},
 							{
 								"source": {
 									"path": "$['paging']['cursors']['before']"
+								},
+								"sink": {
+									"name": "before"
 								}
 							},
 							{
 								"source": {
 									"path": "$['paging']['cursors']['after']"
+								},
+								"sink": {
+									"name": "after"
 								}
 							},
 							{
 								"source": {
 									"path": "$['paging']['next']"
+								},
+								"sink": {
+									"name": "next"
 								}
 							}
 						],
