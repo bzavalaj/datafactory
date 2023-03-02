@@ -1,0 +1,336 @@
+{
+	"name": "inputjson",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "stories_file_5.json",
+				"folderPath": "raw",
+				"container": "crea"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"data": {
+					"type": "object",
+					"properties": {
+						"user": {
+							"type": "object",
+							"properties": {
+								"id": {
+									"type": "string"
+								},
+								"profile_pic_url": {
+									"type": "string"
+								},
+								"username": {
+									"type": "string"
+								},
+								"edge_web_feed_timeline": {
+									"type": "object",
+									"properties": {
+										"page_info": {
+											"type": "object",
+											"properties": {
+												"has_next_page": {
+													"type": "boolean"
+												},
+												"end_cursor": {
+													"type": "string"
+												}
+											}
+										},
+										"edges": {
+											"type": "array",
+											"items": {
+												"type": "object",
+												"properties": {
+													"node": {
+														"type": "object",
+														"properties": {
+															"__typename": {
+																"type": "string"
+															},
+															"id": {
+																"type": "string"
+															},
+															"dimensions": {
+																"type": "object",
+																"properties": {
+																	"height": {
+																		"type": "integer"
+																	},
+																	"width": {
+																		"type": "integer"
+																	}
+																}
+															},
+															"display_url": {
+																"type": "string"
+															},
+															"display_resources": {
+																"type": "array",
+																"items": {
+																	"type": "object",
+																	"properties": {
+																		"src": {
+																			"type": "string"
+																		},
+																		"config_width": {
+																			"type": "integer"
+																		},
+																		"config_height": {
+																			"type": "integer"
+																		}
+																	}
+																}
+															},
+															"follow_hashtag_info": {
+																"type": "null"
+															},
+															"is_video": {
+																"type": "boolean"
+															},
+															"tracking_token": {
+																"type": "string"
+															},
+															"upcoming_event": {
+																"type": "null"
+															},
+															"edge_media_to_tagged_user": {
+																"type": "object",
+																"properties": {
+																	"edges": {
+																		"type": "array"
+																	}
+																}
+															},
+															"accessibility_caption": {
+																"type": "string"
+															},
+															"attribution": {
+																"type": "null"
+															},
+															"shortcode": {
+																"type": "string"
+															},
+															"edge_media_to_caption": {
+																"type": "object",
+																"properties": {
+																	"edges": {
+																		"type": "array",
+																		"items": {
+																			"type": "object",
+																			"properties": {
+																				"node": {
+																					"type": "object",
+																					"properties": {
+																						"text": {
+																							"type": "string"
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															},
+															"edge_media_preview_comment": {
+																"type": "object",
+																"properties": {
+																	"count": {
+																		"type": "integer"
+																	},
+																	"page_info": {
+																		"type": "object",
+																		"properties": {
+																			"has_next_page": {
+																				"type": "boolean"
+																			},
+																			"end_cursor": {
+																				"type": "null"
+																			}
+																		}
+																	},
+																	"edges": {
+																		"type": "array",
+																		"items": {
+																			"type": "object",
+																			"properties": {
+																				"node": {
+																					"type": "object",
+																					"properties": {
+																						"id": {
+																							"type": "string"
+																						},
+																						"text": {
+																							"type": "string"
+																						},
+																						"created_at": {
+																							"type": "integer"
+																						},
+																						"did_report_as_spam": {
+																							"type": "boolean"
+																						},
+																						"owner": {
+																							"type": "object",
+																							"properties": {
+																								"id": {
+																									"type": "string"
+																								},
+																								"profile_pic_url": {
+																									"type": "string"
+																								},
+																								"username": {
+																									"type": "string"
+																								}
+																							}
+																						},
+																						"viewer_has_liked": {
+																							"type": "boolean"
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															},
+															"gating_info": {
+																"type": "null"
+															},
+															"fact_check_overall_rating": {
+																"type": "null"
+															},
+															"fact_check_information": {
+																"type": "null"
+															},
+															"sharing_friction_info": {
+																"type": "object",
+																"properties": {
+																	"should_have_sharing_friction": {
+																		"type": "boolean"
+																	},
+																	"bloks_app_url": {
+																		"type": "null"
+																	}
+																}
+															},
+															"media_overlay_info": {
+																"type": "null"
+															},
+															"media_preview": {
+																"type": "string"
+															},
+															"comments_disabled": {
+																"type": "boolean"
+															},
+															"taken_at_timestamp": {
+																"type": "integer"
+															},
+															"edge_media_preview_like": {
+																"type": "object",
+																"properties": {
+																	"count": {
+																		"type": "integer"
+																	},
+																	"edges": {
+																		"type": "array"
+																	}
+																}
+															},
+															"edge_media_to_sponsor_user": {
+																"type": "object",
+																"properties": {
+																	"edges": {
+																		"type": "array"
+																	}
+																}
+															},
+															"is_affiliate": {
+																"type": "boolean"
+															},
+															"is_paid_partnership": {
+																"type": "boolean"
+															},
+															"location": {
+																"type": "null"
+															},
+															"viewer_has_liked": {
+																"type": "boolean"
+															},
+															"viewer_has_saved": {
+																"type": "boolean"
+															},
+															"viewer_has_saved_to_collection": {
+																"type": "boolean"
+															},
+															"viewer_in_photo_of_you": {
+																"type": "boolean"
+															},
+															"viewer_can_reshare": {
+																"type": "boolean"
+															},
+															"owner": {
+																"type": "object",
+																"properties": {
+																	"id": {
+																		"type": "string"
+																	},
+																	"profile_pic_url": {
+																		"type": "string"
+																	},
+																	"username": {
+																		"type": "string"
+																	},
+																	"followed_by_viewer": {
+																		"type": "boolean"
+																	},
+																	"full_name": {
+																		"type": "string"
+																	},
+																	"is_private": {
+																		"type": "boolean"
+																	},
+																	"requested_by_viewer": {
+																		"type": "boolean"
+																	},
+																	"blocked_by_viewer": {
+																		"type": "boolean"
+																	},
+																	"has_blocked_viewer": {
+																		"type": "boolean"
+																	},
+																	"restricted_by_viewer": {
+																		"type": "boolean"
+																	}
+																}
+															},
+															"coauthor_producers": {
+																"type": "array"
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				"status": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
