@@ -1,0 +1,42 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "created_time",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "message",
+				"type": "text"
+			},
+			{
+				"name": "id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "before",
+				"type": "text"
+			},
+			{
+				"name": "after",
+				"type": "text"
+			},
+			{
+				"name": "next",
+				"type": "text"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "axity_feed"
+		}
+	}
+}
