@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "json1.csv",
+				"fileName": "fb_feed.csv",
 				"folderPath": "curated",
 				"container": "crea"
 			},
