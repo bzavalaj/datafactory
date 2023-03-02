@@ -44,7 +44,7 @@
 						"mappings": [
 							{
 								"source": {
-									"path": "$['data'][0]['created_time']"
+									"path": "['created_time']"
 								},
 								"sink": {
 									"name": "created_time"
@@ -52,7 +52,7 @@
 							},
 							{
 								"source": {
-									"path": "$['data'][0]['message']"
+									"path": "['message']"
 								},
 								"sink": {
 									"name": "message"
@@ -60,7 +60,7 @@
 							},
 							{
 								"source": {
-									"path": "$['data'][0]['id']"
+									"path": "['id']"
 								},
 								"sink": {
 									"name": "id"
@@ -92,7 +92,7 @@
 							}
 						],
 						"collectionReference": "$['data']",
-						"mapComplexValuesToString": false
+						"mapComplexValuesToString": true
 					}
 				},
 				"inputs": [
