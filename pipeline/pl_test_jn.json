@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "Feed Fb Json to CSV",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -97,13 +97,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "inputjson",
+						"referenceName": "feed",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "DelimitedText2",
+						"referenceName": "feed_csv",
 						"type": "DatasetReference"
 					}
 				]

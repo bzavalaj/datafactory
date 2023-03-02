@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText2",
+	"name": "feed_csv",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureBlobStorage3",
