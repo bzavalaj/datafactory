@@ -52,7 +52,7 @@
 						"mappings": [
 							{
 								"source": {
-									"path": "$['data'][0]['created_time']"
+									"path": "['created_time']"
 								},
 								"sink": {
 									"ordinal": 1
@@ -60,7 +60,7 @@
 							},
 							{
 								"source": {
-									"path": "$['data'][0]['message']"
+									"path": "['message']"
 								},
 								"sink": {
 									"ordinal": 2
@@ -68,7 +68,7 @@
 							},
 							{
 								"source": {
-									"path": "$['data'][0]['id']"
+									"path": "['id']"
 								},
 								"sink": {
 									"ordinal": 3
@@ -99,7 +99,7 @@
 								}
 							}
 						],
-						"collectionReference": ""
+						"collectionReference": "$['data']"
 					}
 				},
 				"inputs": [
