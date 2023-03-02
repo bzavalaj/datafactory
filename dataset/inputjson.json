@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "stories_file_5.json",
 				"folderPath": "raw",
 				"container": "crea"
 			}
