@@ -46,7 +46,7 @@
 									"path": "$['data']['user']['id']"
 								},
 								"sink": {
-									"ordinal": 1
+									"name": "data_user_id"
 								}
 							},
 							{
@@ -54,7 +54,7 @@
 									"path": "$['data']['user']['profile_pic_url']"
 								},
 								"sink": {
-									"ordinal": 2
+									"name": "data_user_profile_pic_url"
 								}
 							},
 							{
@@ -62,7 +62,7 @@
 									"path": "$['data']['user']['username']"
 								},
 								"sink": {
-									"ordinal": 3
+									"name": "data_user_username"
 								}
 							},
 							{
@@ -70,7 +70,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['page_info']['has_next_page']"
 								},
 								"sink": {
-									"ordinal": 4
+									"name": "data_user_edge_web_feed_timeline_page_info_has_next_page"
 								}
 							},
 							{
@@ -78,7 +78,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['page_info']['end_cursor']"
 								},
 								"sink": {
-									"ordinal": 5
+									"name": "data_user_edge_web_feed_timeline_page_info_end_cursor"
 								}
 							},
 							{
@@ -86,7 +86,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['__typename']"
 								},
 								"sink": {
-									"ordinal": 6
+									"name": "__typename"
 								}
 							},
 							{
@@ -94,7 +94,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['id']"
 								},
 								"sink": {
-									"ordinal": 7
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_id"
 								}
 							},
 							{
@@ -102,7 +102,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['dimensions']['height']"
 								},
 								"sink": {
-									"ordinal": 8
+									"name": "height"
 								}
 							},
 							{
@@ -110,7 +110,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['dimensions']['width']"
 								},
 								"sink": {
-									"ordinal": 9
+									"name": "width"
 								}
 							},
 							{
@@ -118,7 +118,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['display_url']"
 								},
 								"sink": {
-									"ordinal": 10
+									"name": "display_url"
 								}
 							},
 							{
@@ -126,7 +126,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['display_resources'][0]['src']"
 								},
 								"sink": {
-									"ordinal": 11
+									"name": "src"
 								}
 							},
 							{
@@ -134,7 +134,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['display_resources'][0]['config_width']"
 								},
 								"sink": {
-									"ordinal": 12
+									"name": "config_width"
 								}
 							},
 							{
@@ -142,7 +142,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['display_resources'][0]['config_height']"
 								},
 								"sink": {
-									"ordinal": 13
+									"name": "config_height"
 								}
 							},
 							{
@@ -150,7 +150,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['follow_hashtag_info']"
 								},
 								"sink": {
-									"ordinal": 14
+									"name": "follow_hashtag_info"
 								}
 							},
 							{
@@ -158,7 +158,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['is_video']"
 								},
 								"sink": {
-									"ordinal": 15
+									"name": "is_video"
 								}
 							},
 							{
@@ -166,7 +166,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['tracking_token']"
 								},
 								"sink": {
-									"ordinal": 16
+									"name": "tracking_token"
 								}
 							},
 							{
@@ -174,7 +174,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['upcoming_event']"
 								},
 								"sink": {
-									"ordinal": 17
+									"name": "upcoming_event"
 								}
 							},
 							{
@@ -182,7 +182,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['edge_media_to_tagged_user']['edges'][0]"
 								},
 								"sink": {
-									"ordinal": 18
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_edge_media_to_tagged_user_edges']["
 								}
 							},
 							{
@@ -190,7 +190,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['accessibility_caption']"
 								},
 								"sink": {
-									"ordinal": 19
+									"name": "accessibility_caption"
 								}
 							},
 							{
@@ -198,7 +198,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['attribution']"
 								},
 								"sink": {
-									"ordinal": 20
+									"name": "attribution"
 								}
 							},
 							{
@@ -206,7 +206,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['shortcode']"
 								},
 								"sink": {
-									"ordinal": 21
+									"name": "shortcode"
 								}
 							},
 							{
@@ -214,7 +214,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['edge_media_to_caption']['edges'][0]['node']['text']"
 								},
 								"sink": {
-									"ordinal": 22
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_edge_media_to_caption_edges'][0]['node_text"
 								}
 							},
 							{
@@ -222,7 +222,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['edge_media_preview_comment']['count']"
 								},
 								"sink": {
-									"ordinal": 23
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_edge_media_preview_comment_count"
 								}
 							},
 							{
@@ -230,7 +230,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['edge_media_preview_comment']['page_info']['has_next_page']"
 								},
 								"sink": {
-									"ordinal": 24
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_edge_media_preview_comment_page_info_has_next_page"
 								}
 							},
 							{
@@ -238,7 +238,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['edge_media_preview_comment']['page_info']['end_cursor']"
 								},
 								"sink": {
-									"ordinal": 25
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_edge_media_preview_comment_page_info_end_cursor"
 								}
 							},
 							{
@@ -246,7 +246,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['edge_media_preview_comment']['edges'][0]['node']['id']"
 								},
 								"sink": {
-									"ordinal": 26
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_edge_media_preview_comment_edges'][0]['node_id"
 								}
 							},
 							{
@@ -254,7 +254,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['edge_media_preview_comment']['edges'][0]['node']['text']"
 								},
 								"sink": {
-									"ordinal": 27
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_edge_media_preview_comment_edges'][0]['node_text"
 								}
 							},
 							{
@@ -262,7 +262,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['edge_media_preview_comment']['edges'][0]['node']['created_at']"
 								},
 								"sink": {
-									"ordinal": 28
+									"name": "created_at"
 								}
 							},
 							{
@@ -270,7 +270,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['edge_media_preview_comment']['edges'][0]['node']['did_report_as_spam']"
 								},
 								"sink": {
-									"ordinal": 29
+									"name": "did_report_as_spam"
 								}
 							},
 							{
@@ -278,7 +278,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['edge_media_preview_comment']['edges'][0]['node']['owner']['id']"
 								},
 								"sink": {
-									"ordinal": 30
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_edge_media_preview_comment_edges'][0]['node_owner_id"
 								}
 							},
 							{
@@ -286,7 +286,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['edge_media_preview_comment']['edges'][0]['node']['owner']['profile_pic_url']"
 								},
 								"sink": {
-									"ordinal": 31
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_edge_media_preview_comment_edges'][0]['node_owner_profile_pic_url"
 								}
 							},
 							{
@@ -294,7 +294,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['edge_media_preview_comment']['edges'][0]['node']['owner']['username']"
 								},
 								"sink": {
-									"ordinal": 32
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_edge_media_preview_comment_edges'][0]['node_owner_username"
 								}
 							},
 							{
@@ -302,7 +302,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['edge_media_preview_comment']['edges'][0]['node']['viewer_has_liked']"
 								},
 								"sink": {
-									"ordinal": 33
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_edge_media_preview_comment_edges'][0]['node_viewer_has_liked"
 								}
 							},
 							{
@@ -310,7 +310,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['gating_info']"
 								},
 								"sink": {
-									"ordinal": 34
+									"name": "gating_info"
 								}
 							},
 							{
@@ -318,7 +318,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['fact_check_overall_rating']"
 								},
 								"sink": {
-									"ordinal": 35
+									"name": "fact_check_overall_rating"
 								}
 							},
 							{
@@ -326,7 +326,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['fact_check_information']"
 								},
 								"sink": {
-									"ordinal": 36
+									"name": "fact_check_information"
 								}
 							},
 							{
@@ -334,7 +334,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['sharing_friction_info']['should_have_sharing_friction']"
 								},
 								"sink": {
-									"ordinal": 37
+									"name": "should_have_sharing_friction"
 								}
 							},
 							{
@@ -342,7 +342,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['sharing_friction_info']['bloks_app_url']"
 								},
 								"sink": {
-									"ordinal": 38
+									"name": "bloks_app_url"
 								}
 							},
 							{
@@ -350,7 +350,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['media_overlay_info']"
 								},
 								"sink": {
-									"ordinal": 39
+									"name": "media_overlay_info"
 								}
 							},
 							{
@@ -358,7 +358,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['media_preview']"
 								},
 								"sink": {
-									"ordinal": 40
+									"name": "media_preview"
 								}
 							},
 							{
@@ -366,7 +366,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['comments_disabled']"
 								},
 								"sink": {
-									"ordinal": 41
+									"name": "comments_disabled"
 								}
 							},
 							{
@@ -374,7 +374,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['taken_at_timestamp']"
 								},
 								"sink": {
-									"ordinal": 42
+									"name": "taken_at_timestamp"
 								}
 							},
 							{
@@ -382,7 +382,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['edge_media_preview_like']['count']"
 								},
 								"sink": {
-									"ordinal": 43
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_edge_media_preview_like_count"
 								}
 							},
 							{
@@ -390,7 +390,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['edge_media_preview_like']['edges'][0]"
 								},
 								"sink": {
-									"ordinal": 44
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_edge_media_preview_like_edges']["
 								}
 							},
 							{
@@ -398,7 +398,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['edge_media_to_sponsor_user']['edges'][0]"
 								},
 								"sink": {
-									"ordinal": 45
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_edge_media_to_sponsor_user_edges']["
 								}
 							},
 							{
@@ -406,7 +406,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['is_affiliate']"
 								},
 								"sink": {
-									"ordinal": 46
+									"name": "is_affiliate"
 								}
 							},
 							{
@@ -414,7 +414,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['is_paid_partnership']"
 								},
 								"sink": {
-									"ordinal": 47
+									"name": "is_paid_partnership"
 								}
 							},
 							{
@@ -422,7 +422,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['location']"
 								},
 								"sink": {
-									"ordinal": 48
+									"name": "location"
 								}
 							},
 							{
@@ -430,7 +430,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['viewer_has_liked']"
 								},
 								"sink": {
-									"ordinal": 49
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_viewer_has_liked"
 								}
 							},
 							{
@@ -438,7 +438,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['viewer_has_saved']"
 								},
 								"sink": {
-									"ordinal": 50
+									"name": "viewer_has_saved"
 								}
 							},
 							{
@@ -446,7 +446,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['viewer_has_saved_to_collection']"
 								},
 								"sink": {
-									"ordinal": 51
+									"name": "viewer_has_saved_to_collection"
 								}
 							},
 							{
@@ -454,7 +454,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['viewer_in_photo_of_you']"
 								},
 								"sink": {
-									"ordinal": 52
+									"name": "viewer_in_photo_of_you"
 								}
 							},
 							{
@@ -462,7 +462,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['viewer_can_reshare']"
 								},
 								"sink": {
-									"ordinal": 53
+									"name": "viewer_can_reshare"
 								}
 							},
 							{
@@ -470,7 +470,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['owner']['id']"
 								},
 								"sink": {
-									"ordinal": 54
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_owner_id"
 								}
 							},
 							{
@@ -478,7 +478,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['owner']['profile_pic_url']"
 								},
 								"sink": {
-									"ordinal": 55
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_owner_profile_pic_url"
 								}
 							},
 							{
@@ -486,7 +486,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['owner']['username']"
 								},
 								"sink": {
-									"ordinal": 56
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_owner_username"
 								}
 							},
 							{
@@ -494,7 +494,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['owner']['followed_by_viewer']"
 								},
 								"sink": {
-									"ordinal": 57
+									"name": "followed_by_viewer"
 								}
 							},
 							{
@@ -502,7 +502,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['owner']['full_name']"
 								},
 								"sink": {
-									"ordinal": 58
+									"name": "full_name"
 								}
 							},
 							{
@@ -510,7 +510,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['owner']['is_private']"
 								},
 								"sink": {
-									"ordinal": 59
+									"name": "is_private"
 								}
 							},
 							{
@@ -518,7 +518,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['owner']['requested_by_viewer']"
 								},
 								"sink": {
-									"ordinal": 60
+									"name": "requested_by_viewer"
 								}
 							},
 							{
@@ -526,7 +526,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['owner']['blocked_by_viewer']"
 								},
 								"sink": {
-									"ordinal": 61
+									"name": "blocked_by_viewer"
 								}
 							},
 							{
@@ -534,7 +534,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['owner']['has_blocked_viewer']"
 								},
 								"sink": {
-									"ordinal": 62
+									"name": "has_blocked_viewer"
 								}
 							},
 							{
@@ -542,7 +542,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['owner']['restricted_by_viewer']"
 								},
 								"sink": {
-									"ordinal": 63
+									"name": "restricted_by_viewer"
 								}
 							},
 							{
@@ -550,7 +550,7 @@
 									"path": "$['data']['user']['edge_web_feed_timeline']['edges'][0]['node']['coauthor_producers'][0]"
 								},
 								"sink": {
-									"ordinal": 64
+									"name": "data_user_edge_web_feed_timeline_edges'][0]['node_coauthor_producers']["
 								}
 							},
 							{
@@ -558,10 +558,11 @@
 									"path": "$['status']"
 								},
 								"sink": {
-									"ordinal": 65
+									"name": "status"
 								}
 							}
-						]
+						],
+						"collectionReference": ""
 					}
 				},
 				"inputs": [
