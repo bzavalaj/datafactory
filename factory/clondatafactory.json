@@ -1,0 +1,9 @@
+{
+	"name": "clondatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "720a8161-624b-4e28-98c0-4bd11f41a139",
+		"tenantId": "063dcb7a-d387-4960-9bb7-e0da0a310e2c"
+	}
+}
